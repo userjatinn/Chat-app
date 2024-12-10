@@ -1,0 +1,21 @@
+{
+  "name": "chat-app-backend",
+  "version": "1.0.0",
+  "description": "Backend for a chat application using Express and Pusher",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node server.js"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.7",
+    "pusher": "^5.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
